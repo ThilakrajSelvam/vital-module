@@ -11,7 +11,7 @@ import java.util.UUID;
  * @author thilak
  * @created 12/4/20
  */
-@FeignClient(name = "user-module", url = "localhost:9000")
+@FeignClient(name = "user-module")
 public interface UserModuleProxy {
 
     /**

@@ -10,7 +10,7 @@ import java.util.UUID;
  * @author thilak
  * @created 12/4/20
  */
-@FeignClient(name = "patient-module", url = "localhost:9100")
+@FeignClient(name = "patient-module")
 public interface PatientModuleProxy {
 
     /**
